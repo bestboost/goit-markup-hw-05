@@ -269,20 +269,28 @@ color: var(--accent-color);
 
 .activity-thumb {
      position: relative;
-    
+}
+
+.activity-thumb::before {
+    position: absolute;
+    bottom: 0;
+
+    display: inline-block;
+    content: '';
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
 }
 
 .activity-text {
     position: absolute;
-    width: 370px;
-    height: 70px;
+    bottom: 27px;
+    transform: translate( 50%); 
 
-    background-color: rgba(47, 48, 58, 0.8);
     color: var(--secondary-text-color);
     font-weight: 700;
-font-size: 14px;
-line-height: 1.1;
-text-align: center;
+    font-size: 14px;
+    line-height: 1.1;
     text-transform: uppercase;
  } 
 
