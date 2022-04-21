@@ -259,14 +259,34 @@ color: var(--accent-color);
 .activity {
     padding-top: 0;
 }
-.section .activity {
+.section .activity-list {
     display: flex;
 }
 
-.activity .item + .item {
+.activity-list .item + .item {
      margin-left: 30px;
  }
- 
+
+.activity-thumb {
+     position: relative;
+    
+}
+
+.activity-text {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--secondary-text-color);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+text-align: center;
+    text-transform: uppercase;
+ } 
+
+
 /* company team */
 .team-section {
     background-color: var(--secondary-background-color);
