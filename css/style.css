@@ -717,5 +717,19 @@ img {
     position: absolute;
     top: 8px;
     right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+
+    background-color: var(--secondary-text-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
  }
 
+.modal-icon {
+    align-items: center;
+    fill: currentColor;
+}
+}
